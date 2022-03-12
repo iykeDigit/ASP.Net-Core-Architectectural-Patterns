@@ -1,0 +1,432 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\injoku\\Desktop\\ASP.Net Core\\ASP.Net-Core-Architectectural-Patterns\\Clean Architecture\\EmployeeManagementCleanArchitecture\\Employee.API\\EmployeeManagement.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\injoku\\Desktop\\ASP.Net Core\\ASP.Net-Core-Architectectural-Patterns\\Clean Architecture\\EmployeeManagementCleanArchitecture\\Employee.API\\EmployeeManagement.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\injoku\\Desktop\\ASP.Net Core\\ASP.Net-Core-Architectectural-Patterns\\Clean Architecture\\EmployeeManagementCleanArchitecture\\Employee.API\\EmployeeManagement.API.csproj",
+        "projectName": "EmployeeManagement.API",
+        "projectPath": "C:\\Users\\injoku\\Desktop\\ASP.Net Core\\ASP.Net-Core-Architectectural-Patterns\\Clean Architecture\\EmployeeManagementCleanArchitecture\\Employee.API\\EmployeeManagement.API.csproj",
+        "packagesPath": "C:\\Users\\injoku\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\injoku\\Desktop\\ASP.Net Core\\ASP.Net-Core-Architectectural-Patterns\\Clean Architecture\\EmployeeManagementCleanArchitecture\\Employee.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\injoku\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\injoku\\Desktop\\ASP.Net Core\\ASP.Net-Core-Architectectural-Patterns\\Clean Architecture\\EmployeeManagementCleanArchitecture\\Employee.Application\\EmployeeManagement.Application.csproj": {
+                "projectPath": "C:\\Users\\injoku\\Desktop\\ASP.Net Core\\ASP.Net-Core-Architectectural-Patterns\\Clean Architecture\\EmployeeManagementCleanArchitecture\\Employee.Application\\EmployeeManagement.Application.csproj"
+              },
+              "C:\\Users\\injoku\\Desktop\\ASP.Net Core\\ASP.Net-Core-Architectectural-Patterns\\Clean Architecture\\EmployeeManagementCleanArchitecture\\Employee.Infras\\EmployeeManagement.Infras.csproj": {
+                "projectPath": "C:\\Users\\injoku\\Desktop\\ASP.Net Core\\ASP.Net-Core-Architectectural-Patterns\\Clean Architecture\\EmployeeManagementCleanArchitecture\\Employee.Infras\\EmployeeManagement.Infras.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.AspNet.SignalR": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            },
+            "Microsoft.AspNet.SignalR.Core": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\injoku\\Desktop\\ASP.Net Core\\ASP.Net-Core-Architectectural-Patterns\\Clean Architecture\\EmployeeManagementCleanArchitecture\\Employee.Application\\EmployeeManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\injoku\\Desktop\\ASP.Net Core\\ASP.Net-Core-Architectectural-Patterns\\Clean Architecture\\EmployeeManagementCleanArchitecture\\Employee.Application\\EmployeeManagement.Application.csproj",
+        "projectName": "EmployeeManagement.Application",
+        "projectPath": "C:\\Users\\injoku\\Desktop\\ASP.Net Core\\ASP.Net-Core-Architectectural-Patterns\\Clean Architecture\\EmployeeManagementCleanArchitecture\\Employee.Application\\EmployeeManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\injoku\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\injoku\\Desktop\\ASP.Net Core\\ASP.Net-Core-Architectectural-Patterns\\Clean Architecture\\EmployeeManagementCleanArchitecture\\Employee.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\injoku\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\injoku\\Desktop\\ASP.Net Core\\ASP.Net-Core-Architectectural-Patterns\\Clean Architecture\\EmployeeManagementCleanArchitecture\\Employee.Core\\EmployeeManagement.Core.csproj": {
+                "projectPath": "C:\\Users\\injoku\\Desktop\\ASP.Net Core\\ASP.Net-Core-Architectectural-Patterns\\Clean Architecture\\EmployeeManagementCleanArchitecture\\Employee.Core\\EmployeeManagement.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.AspNet.SignalR": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            },
+            "Microsoft.AspNet.SignalR.Core": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\injoku\\Desktop\\ASP.Net Core\\ASP.Net-Core-Architectectural-Patterns\\Clean Architecture\\EmployeeManagementCleanArchitecture\\Employee.Core\\EmployeeManagement.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\injoku\\Desktop\\ASP.Net Core\\ASP.Net-Core-Architectectural-Patterns\\Clean Architecture\\EmployeeManagementCleanArchitecture\\Employee.Core\\EmployeeManagement.Core.csproj",
+        "projectName": "EmployeeManagement.Core",
+        "projectPath": "C:\\Users\\injoku\\Desktop\\ASP.Net Core\\ASP.Net-Core-Architectectural-Patterns\\Clean Architecture\\EmployeeManagementCleanArchitecture\\Employee.Core\\EmployeeManagement.Core.csproj",
+        "packagesPath": "C:\\Users\\injoku\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\injoku\\Desktop\\ASP.Net Core\\ASP.Net-Core-Architectectural-Patterns\\Clean Architecture\\EmployeeManagementCleanArchitecture\\Employee.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\injoku\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.AspNet.SignalR": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            },
+            "Microsoft.AspNet.SignalR.Core": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\injoku\\Desktop\\ASP.Net Core\\ASP.Net-Core-Architectectural-Patterns\\Clean Architecture\\EmployeeManagementCleanArchitecture\\Employee.Infras\\EmployeeManagement.Infras.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\injoku\\Desktop\\ASP.Net Core\\ASP.Net-Core-Architectectural-Patterns\\Clean Architecture\\EmployeeManagementCleanArchitecture\\Employee.Infras\\EmployeeManagement.Infras.csproj",
+        "projectName": "EmployeeManagement.Infras",
+        "projectPath": "C:\\Users\\injoku\\Desktop\\ASP.Net Core\\ASP.Net-Core-Architectectural-Patterns\\Clean Architecture\\EmployeeManagementCleanArchitecture\\Employee.Infras\\EmployeeManagement.Infras.csproj",
+        "packagesPath": "C:\\Users\\injoku\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\injoku\\Desktop\\ASP.Net Core\\ASP.Net-Core-Architectectural-Patterns\\Clean Architecture\\EmployeeManagementCleanArchitecture\\Employee.Infras\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\injoku\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\injoku\\Desktop\\ASP.Net Core\\ASP.Net-Core-Architectectural-Patterns\\Clean Architecture\\EmployeeManagementCleanArchitecture\\Employee.Core\\EmployeeManagement.Core.csproj": {
+                "projectPath": "C:\\Users\\injoku\\Desktop\\ASP.Net Core\\ASP.Net-Core-Architectectural-Patterns\\Clean Architecture\\EmployeeManagementCleanArchitecture\\Employee.Core\\EmployeeManagement.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.AspNet.SignalR": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            },
+            "Microsoft.AspNet.SignalR.Core": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

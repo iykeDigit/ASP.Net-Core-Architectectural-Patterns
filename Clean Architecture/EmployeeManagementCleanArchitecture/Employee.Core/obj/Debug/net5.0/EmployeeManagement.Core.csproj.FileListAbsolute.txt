@@ -1,0 +1,15 @@
+C:\Users\injoku\Desktop\ASP.Net Core\ASP.Net-Core-Architectectural-Patterns\Clean Architecture\EmployeeManagementCleanArchitecture\Employee.Core\bin\Debug\net5.0\EmployeeManagement.Core.deps.json
+C:\Users\injoku\Desktop\ASP.Net Core\ASP.Net-Core-Architectectural-Patterns\Clean Architecture\EmployeeManagementCleanArchitecture\Employee.Core\bin\Debug\net5.0\EmployeeManagement.Core.dll
+C:\Users\injoku\Desktop\ASP.Net Core\ASP.Net-Core-Architectectural-Patterns\Clean Architecture\EmployeeManagementCleanArchitecture\Employee.Core\bin\Debug\net5.0\ref\EmployeeManagement.Core.dll
+C:\Users\injoku\Desktop\ASP.Net Core\ASP.Net-Core-Architectectural-Patterns\Clean Architecture\EmployeeManagementCleanArchitecture\Employee.Core\bin\Debug\net5.0\EmployeeManagement.Core.pdb
+C:\Users\injoku\Desktop\ASP.Net Core\ASP.Net-Core-Architectectural-Patterns\Clean Architecture\EmployeeManagementCleanArchitecture\Employee.Core\obj\Debug\net5.0\EmployeeManagement.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\injoku\Desktop\ASP.Net Core\ASP.Net-Core-Architectectural-Patterns\Clean Architecture\EmployeeManagementCleanArchitecture\Employee.Core\obj\Debug\net5.0\EmployeeManagement.Core.AssemblyInfoInputs.cache
+C:\Users\injoku\Desktop\ASP.Net Core\ASP.Net-Core-Architectectural-Patterns\Clean Architecture\EmployeeManagementCleanArchitecture\Employee.Core\obj\Debug\net5.0\EmployeeManagement.Core.AssemblyInfo.cs
+C:\Users\injoku\Desktop\ASP.Net Core\ASP.Net-Core-Architectectural-Patterns\Clean Architecture\EmployeeManagementCleanArchitecture\Employee.Core\obj\Debug\net5.0\EmployeeManagement.Core.csproj.CoreCompileInputs.cache
+C:\Users\injoku\Desktop\ASP.Net Core\ASP.Net-Core-Architectectural-Patterns\Clean Architecture\EmployeeManagementCleanArchitecture\Employee.Core\obj\Debug\net5.0\EmployeeManagement.Core.dll
+C:\Users\injoku\Desktop\ASP.Net Core\ASP.Net-Core-Architectectural-Patterns\Clean Architecture\EmployeeManagementCleanArchitecture\Employee.Core\obj\Debug\net5.0\ref\EmployeeManagement.Core.dll
+C:\Users\injoku\Desktop\ASP.Net Core\ASP.Net-Core-Architectectural-Patterns\Clean Architecture\EmployeeManagementCleanArchitecture\Employee.Core\obj\Debug\net5.0\EmployeeManagement.Core.pdb
+C:\Users\injoku\Desktop\ASP.Net Core\ASP.Net-Core-Architectectural-Patterns\Clean Architecture\EmployeeManagementCleanArchitecture\Employee.Core\bin\Debug\net5.0\EmployeeManagement.Core.runtimeconfig.json
+C:\Users\injoku\Desktop\ASP.Net Core\ASP.Net-Core-Architectectural-Patterns\Clean Architecture\EmployeeManagementCleanArchitecture\Employee.Core\bin\Debug\net5.0\EmployeeManagement.Core.runtimeconfig.dev.json
+C:\Users\injoku\Desktop\ASP.Net Core\ASP.Net-Core-Architectectural-Patterns\Clean Architecture\EmployeeManagementCleanArchitecture\Employee.Core\obj\Debug\net5.0\EmployeeManagement.Core.csproj.AssemblyReference.cache
+C:\Users\injoku\Desktop\ASP.Net Core\ASP.Net-Core-Architectectural-Patterns\Clean Architecture\EmployeeManagementCleanArchitecture\Employee.Core\obj\Debug\net5.0\EmployeeManagement.Core.genruntimeconfig.cache
